@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f8f8f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #f8f8f8;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #f8f8f8;
+  font-family: "Courier New", monospace;
+  color: #1a1a1a;
+}
