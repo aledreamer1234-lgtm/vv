@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Capri AI builds tools for AI: governed runtimes, payment controls, and operational infrastructure for teams shipping agent systems."
+    />
+    <meta name="theme-color" content="#05070d" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Capri AI | We build tools for AI" />
+    <meta
+      property="og:description"
+      content="Capri AI builds tools for AI: governed runtimes, payment controls, and operational infrastructure for teams shipping agent systems."
+    />
+    <meta property="og:image" content="/og-capri-ai.svg" />
+    <meta property="og:site_name" content="Capri AI" />
+    <meta property="og:url" content="https://capriai.dev" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Capri AI | We build tools for AI" />
+    <meta
+      name="twitter:description"
+      content="Capri AI builds tools for AI: governed runtimes, payment controls, and operational infrastructure for teams shipping agent systems."
+    />
+    <meta name="twitter:image" content="/og-capri-ai.svg" />
+    <link id="site-icon" rel="icon" type="image/svg+xml" href="/capri-mark.svg" />
+    <link id="site-manifest" rel="manifest" href="/capri-ai.webmanifest" />
+    <title>Capri AI | We build tools for AI</title>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var override = params.get("site");
+        var host = window.location.hostname.toLowerCase();
+        var isParent = override === "capri-ai" || (!override && (host === "capriai.dev" || host === "www.capriai.dev"));
+        var meta = isParent
+          ? {
+              title: "Capri AI | We build tools for AI",
+              description:
+                "Capri AI builds tools for AI: governed runtimes, payment controls, and operational infrastructure for teams shipping agent systems.",
+              image: "/og-capri-ai.svg",
+              siteName: "Capri AI",
+              url: "https://capriai.dev",
+              manifest: "/capri-ai.webmanifest"
+            }
+          : {
+              title: "Capri AgentPay | Governed payments for AI agents",
+              description:
+                "Capri AgentPay gives agents wallets, budgets, x402 handling, policy checks, and signed receipts from inside VS Code.",
+              image: "/og-capri-agentpay.svg",
+              siteName: "Capri AgentPay",
+              url: "https://agentpay.capriai.dev",
+              manifest: "/capri-agentpay.webmanifest"
+            };
+
+        document.title = meta.title;
+        var mappings = [
+          ['meta[name="description"]', meta.description],
+          ['meta[property="og:title"]', meta.title],
+          ['meta[property="og:description"]', meta.description],
+          ['meta[property="og:image"]', meta.image],
+          ['meta[property="og:site_name"]', meta.siteName],
+          ['meta[property="og:url"]', meta.url],
+          ['meta[name="twitter:title"]', meta.title],
+          ['meta[name="twitter:description"]', meta.description],
+          ['meta[name="twitter:image"]', meta.image]
+        ];
+
+        for (var i = 0; i < mappings.length; i += 1) {
+          var node = document.querySelector(mappings[i][0]);
+          if (node) node.setAttribute("content", mappings[i][1]);
+        }
+
+        var manifest = document.getElementById("site-manifest");
+        if (manifest) manifest.setAttribute("href", meta.manifest);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-Ctf76cXu.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-COmE-TCr.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

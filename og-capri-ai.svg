@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#07090D"/>
+  <path d="M0 108H1200" stroke="white" stroke-opacity="0.04"/>
+  <path d="M0 216H1200" stroke="white" stroke-opacity="0.04"/>
+  <path d="M0 324H1200" stroke="white" stroke-opacity="0.04"/>
+  <path d="M0 432H1200" stroke="white" stroke-opacity="0.04"/>
+  <path d="M0 540H1200" stroke="white" stroke-opacity="0.04"/>
+  <defs>
+    <radialGradient id="capriAiGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(164 136) rotate(46.7357) scale(134.842)">
+      <stop stop-color="#27C7FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#27C7FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="capriAiMark" x1="74" y1="78" x2="282" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27C7FF"/>
+      <stop offset="0.5" stop-color="#2F65FF"/>
+      <stop offset="1" stop-color="#7B3DFF"/>
+    </linearGradient>
+    <linearGradient id="capriAiAccent" x1="126" y1="114" x2="218" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="88" y="94" width="190" height="190" rx="36" fill="#08101B" stroke="white" stroke-opacity="0.1"/>
+  <circle cx="162" cy="138" r="92" fill="url(#capriAiGlow)"/>
+  <path d="M230 140C218 129 202 123 185 123C141 123 105 159 105 203C105 247 141 283 185 283C202 283 218 277 230 266" stroke="url(#capriAiMark)" stroke-width="23" stroke-linecap="round"/>
+  <path d="M213 157C203 148 191 143 177 143C151 143 130 164 130 190C130 216 151 237 177 237C191 237 203 232 213 223" stroke="url(#capriAiAccent)" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M152 203H208L194 189L204 179L233 203L204 227L194 217L208 203H152Z" fill="url(#capriAiMark)"/>
+  <path d="M50 176H98" stroke="url(#capriAiMark)" stroke-width="8.5" stroke-linecap="round"/>
+  <path d="M40 203H88" stroke="url(#capriAiMark)" stroke-width="8.5" stroke-linecap="round"/>
+  <path d="M50 230H98" stroke="url(#capriAiMark)" stroke-width="8.5" stroke-linecap="round"/>
+  <text x="328" y="185" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="20" letter-spacing="2">CAPRI AI</text>
+  <text x="328" y="274" fill="white" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="700">We build tools for AI.</text>
+  <text x="328" y="356" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="32">
+    Governed runtimes, payment controls, and
+  </text>
+  <text x="328" y="402" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="32">
+    operator-grade surfaces for agent teams.
+  </text>
+  <text x="328" y="490" fill="#7DD3FC" font-family="Consolas, Menlo, monospace" font-size="26">Current release: Capri AgentPay</text>
+</svg>

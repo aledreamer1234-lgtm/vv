@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="48" fill="#05070D"/>
+  <rect x="18" y="18" width="220" height="220" rx="42" fill="#08101B" stroke="white" stroke-opacity="0.08"/>
+  <defs>
+    <radialGradient id="capriGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(82 74) rotate(46.7357) scale(98.7956)">
+      <stop stop-color="#27C7FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#27C7FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="capriMark" x1="40" y1="40" x2="210" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27C7FF"/>
+      <stop offset="0.5" stop-color="#2F65FF"/>
+      <stop offset="1" stop-color="#7B3DFF"/>
+    </linearGradient>
+    <linearGradient id="capriAccent" x1="92" y1="68" x2="176" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="82" cy="74" r="82" fill="url(#capriGlow)"/>
+  <path d="M196 70C181 56 162 48 141 48C92.4 48 53 87.4 53 136C53 184.6 92.4 224 141 224C162 224 181 216 196 202" stroke="url(#capriMark)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M176 92C164 82 149 76 132 76C99.9 76 74 101.9 74 134C74 166.1 99.9 192 132 192C149 192 164 186 176 176" stroke="url(#capriAccent)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M106 136H176L159 119L171 107L206 136L171 165L159 153L176 136H106Z" fill="url(#capriMark)"/>
+  <path d="M18 106H74" stroke="url(#capriMark)" stroke-width="9.5" stroke-linecap="round"/>
+  <path d="M8 136H64" stroke="url(#capriMark)" stroke-width="9.5" stroke-linecap="round"/>
+  <path d="M18 166H74" stroke="url(#capriMark)" stroke-width="9.5" stroke-linecap="round"/>
+</svg>

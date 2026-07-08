@@ -1,0 +1,44 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#05070D"/>
+  <path d="M0 104H1200" stroke="white" stroke-opacity="0.05"/>
+  <path d="M0 208H1200" stroke="white" stroke-opacity="0.05"/>
+  <path d="M0 312H1200" stroke="white" stroke-opacity="0.05"/>
+  <path d="M0 416H1200" stroke="white" stroke-opacity="0.05"/>
+  <path d="M0 520H1200" stroke="white" stroke-opacity="0.05"/>
+  <path d="M160 0V630" stroke="white" stroke-opacity="0.05"/>
+  <path d="M320 0V630" stroke="white" stroke-opacity="0.05"/>
+  <path d="M480 0V630" stroke="white" stroke-opacity="0.05"/>
+  <path d="M640 0V630" stroke="white" stroke-opacity="0.05"/>
+  <path d="M800 0V630" stroke="white" stroke-opacity="0.05"/>
+  <path d="M960 0V630" stroke="white" stroke-opacity="0.05"/>
+  <defs>
+    <radialGradient id="capriAgentPayGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(148 124) rotate(46.7357) scale(122.677)">
+      <stop stop-color="#27C7FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#27C7FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="74" y1="78" x2="248" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27C7FF"/>
+      <stop offset="0.5" stop-color="#2F65FF"/>
+      <stop offset="1" stop-color="#7B3DFF"/>
+    </linearGradient>
+    <linearGradient id="markAccent" x1="116" y1="110" x2="194" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="72" y="88" width="170" height="170" rx="32" fill="#08101B" stroke="white" stroke-opacity="0.1"/>
+  <circle cx="144" cy="122" r="84" fill="url(#capriAgentPayGlow)"/>
+  <path d="M196 132C185 122 171 116 156 116C117.3 116 86 147.3 86 186C86 224.7 117.3 256 156 256C171 256 185 250 196 240" stroke="url(#mark)" stroke-width="21" stroke-linecap="round"/>
+  <path d="M182 146C173 138 162 134 149 134C126 134 107 153 107 176C107 199 126 218 149 218C162 218 173 214 182 206" stroke="url(#markAccent)" stroke-width="4.8" stroke-linecap="round"/>
+  <path d="M128 180H177L165 168L173 160L199 180L173 200L165 192L177 180H128Z" fill="url(#mark)"/>
+  <path d="M39 161H84" stroke="url(#mark)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M31 180H76" stroke="url(#mark)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M39 199H84" stroke="url(#mark)" stroke-width="8" stroke-linecap="round"/>
+  <text x="282" y="160" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="20" letter-spacing="2">CAPRI AI PRODUCT</text>
+  <text x="282" y="232" fill="white" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">Capri AgentPay</text>
+  <text x="282" y="286" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="30">Governed payments for AI agents.</text>
+  <rect x="282" y="336" width="650" height="176" rx="18" fill="#070A12" stroke="white" stroke-opacity="0.1"/>
+  <text x="322" y="388" fill="#2DD4BF" font-family="Consolas, Menlo, monospace" font-size="24">HTTP 402 -&gt; policy -&gt; sign -&gt; receipt -&gt; retry</text>
+  <text x="322" y="439" fill="#8BFFB6" font-family="Consolas, Menlo, monospace" font-size="24">amount: 0.05 USDC | chain: base-sepolia</text>
+  <text x="322" y="490" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="24">capri-agentpay.receipt: rcpt_8f19</text>
+</svg>
